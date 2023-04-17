@@ -1,0 +1,563 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800;900&display=swap" rel="stylesheet">);
+
+:root {
+    --principal: #fa8d18;
+    --secundario: #383737;
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' !important;
+}
+
+.navbar{
+    background-color: #fa8d18 !important;
+}
+.nav-item{
+    margin: 0px 10px;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--principal) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#port img {
+    width: 100%;
+    height: 100%;
+}
+.luimi{
+color: var(--secundario);
+margin-top: -120px;
+} 
+
+.btns{
+    background-color: var(--secundario) !important;
+    border-color: #383737 !important;
+}
+
+.btns:hover {
+    background-color: #ba6407 !important;
+    color: #ffffff;
+}
+
+.cafe-portada  {
+        margin-top: -180px !important;
+        animation: move-product 4s linear infinite;
+        max-width: 50px;
+
+}
+
+@keyframes move-product {
+    0% {
+        transform: translateY(30px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+/*segunda seccion*/
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.waves {
+    width: 100%;
+}
+.waves img {
+    position: absolute;
+
+}
+#products {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+
+}
+#products img {
+    width: 480px;
+    position: absolute;
+    align-items: center;
+    padding-top: 60px;
+
+}
+.text-section {
+    display: flex;
+    position: absolute;
+    padding-top: 600px;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+}
+.text-section h2 {
+    align-items: center;
+    color: var(--secundario);
+    text-align: center;
+
+}
+.sub {
+    text-decoration: none;
+    color: var(--secundario);
+    background-color: var(--principal);
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.sub:hover {
+    background-color: var(--secundario);
+    color: #ffffff;
+}
+/*tercera-seccion*/
+.cont-a {
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.87)), url(../CORPORATIVO/nuestro-barrio.jpg) no-repeat center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#text  {
+    margin-top: 420px;
+    margin-left: 470px;
+}
+
+#text h2 {
+    font-size: 60px ;
+    
+
+}
+
+#text p {
+    font-size: 25px;
+
+}
+
+/*cuarta-seccion*/
+
+.article-container {
+
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin-top: -120px;
+}
+#image-article img {
+    width: 650px;
+    margin-left: 300px;
+}
+#image-article img {
+    transition: transform .2s;
+}
+#image-article img:hover {
+    transform: scale(1.1);
+}
+#somos {
+    max-width: 600px;
+    margin-right: 250px;
+}
+#somos p {
+    color: var(--secundario);
+    font-family: sans-serif;
+   text-align: justify;
+   
+}
+#somos h2 {
+    color: var(--secundario);
+    font-family: monospace;
+    font-size: 33px;
+    text-transform: uppercase;
+}
+
+/*quinta seccion*/
+
+.banner {
+
+
+    background: url(../CORPORATIVO/producto3.png) no-repeat center/cover;
+    height: 42vh;
+}
+
+
+/*sexta-seccion*/
+
+article h2 {
+    text-align: center;
+    padding-top: 70px;
+  }
+  
+  .products-coffe {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+   justify-content: center;
+  }
+  
+  .container-products {
+  display: flex;
+  margin-top: 15px;
+  
+  
+  }
+  
+  
+  .small1  {
+      max-width: 400px;
+   margin-right: 45px;
+  }
+  
+  .small2  {
+      max-width: 400px;
+      margin-left: 15px;
+  }
+  
+  
+  .small3  {
+      max-width: 400px;
+   margin-left: 15px;
+  }
+  
+  
+  
+  .small1  img {
+  width: 400px;
+  cursor: pointer;
+  }
+  .small2  img {
+      width: 400px;
+      cursor: pointer;
+      }
+      .small3  img {
+          width: 400px;
+          cursor: pointer;
+          }
+  
+  
+  .small1  img:hover{
+    background-color: #fa8d18;
+    padding: 10px;
+    border-radius: 20px;
+  
+  
+  }
+  
+  .small2  img:hover{
+      background-color: #fa8d18;
+      padding: 10px;
+      border-radius: 20px;
+  
+    
+    }
+    .small3  img:hover{
+      background-color: #fa8d18;
+      padding: 10px;
+      border-radius: 20px;
+  
+    
+    }
+
+          .small1 h3 {
+              padding-top: 25px;
+            text-align: center;
+            color: #504f4f;
+          }
+  
+          .small2 h3 {
+              padding-top: 25px;
+              text-align: center;
+              color: #504f4f;
+      
+          }
+  
+       .small3 h3 {
+          padding-top: 25px;
+          text-align: center;
+          color: #504f4f;
+       }
+  
+       .small1 p{
+           text-align: center;
+           color: #555454;
+       }
+  
+       
+       .small2 p{
+          text-align: center;
+          color: #555454;
+      }
+  
+      .small3 p{
+          text-align: center;
+          color: #555454;
+      }
+
+      /*septima-seccion*/
+
+    .cont-gallery{
+        display: flex;
+        width: 100%;
+    }
+
+    .gallery {
+        display: flex;
+        align-items: center;
+     
+
+    }
+
+    .gallery img{
+        width: 480px;
+        transition: transform .2s;
+    }
+
+  .gallery img:hover{
+    transform: scale(1.1);
+
+  }
+
+  footer {
+      background-color: black;
+      height: 90px;
+  }
+
+  footer p {
+      color: #ffffff;
+    text-align: center;
+font-size: 15px;
+padding-top: 38px;
+padding-bottom: 8px;
+  }
+
+
+  @media (max-width:1600px){
+    .cafe-portada {
+     
+        width: 320px;
+        position: absolute;
+        align-items: center;
+        margin-top: -150px;
+        padding-top: -320px;
+        margin-right: 100px;
+       
+        }
+  }
+  @media (max-width:1400px){
+
+    .luimi{
+        margin-top: 150px;
+    }
+
+  .cafe-portada {
+     
+    width: 300px;
+    position: absolute;
+    align-items: center;
+    margin-top: 150px;
+    padding-top: 320px;
+    margin-right: 100px;
+   
+    }
+    
+    
+    
+    #cover-cont{
+        flex-direction: column;
+        max-width: 300px;
+     
+    }
+    
+    #cover-text h1 {
+        font-size: 35px;
+        padding-bottom: 30px;
+        
+    }
+    
+    #cover-text h2 {
+        font-size: 18px;
+    }
+    
+    #cover-text p{
+    font-size: 12px;
+    }
+    #port {
+    display: none;
+    }
+    
+    
+    #products img {
+        width: 220px;
+        position: absolute;
+        align-items: center;
+        padding-top: 60px;
+    
+    }
+    
+    .text-section  {
+        display: flex;
+        position: absolute;
+        padding-top: 320px;
+        align-items: center;
+        flex-direction: column;
+        max-width: 6000px;
+    }
+    
+    .text-section p {
+        font-size: 17px;
+        margin: 30px;
+        margin-bottom: 0;
+        padding-top: 5px;
+    }
+    
+    .text-section h2 {
+        font-size: 20px;
+    
+    }
+    
+    
+    
+    #text {
+        margin-top:120px;
+        margin-left: 10px;
+        max-width: 200px;
+    }
+    
+    #text h2 {
+        font-size: 30px;
+        text-align: center;
+    margin-top: 300px;
+    }
+    
+    #text p {
+        font-size: 12px;
+        display: none;
+    }
+    
+    
+    #image-article img {
+    width: 80%;
+        margin-left: 150px;
+   
+    
+    }
+    
+    #somos {
+       max-width: 500px;
+        margin-right: 0px;
+        margin-left: 60px;
+     
+    
+    }
+    
+    #somos p{
+    font-size: 19px;
+    text-align: center;
+     font-size: 70%;
+    }
+    
+    
+    
+    #somos h2 {
+ 
+    }
+    
+    
+    .products-coffe {
+        display: flex;
+        height: 100vh;
+    flex-direction: column;
+    }
+    
+    
+    .container-products {
+        display: flex;
+        margin-top: 15px;
+    flex-direction: column;
+        }
+        .cont-gallery{
+         display: none;
+     
+        }
+        .cont-gallery img{
+            width: 15px;
+        }
+        .small1  img {
+            width: 200px;
+            cursor: pointer;
+            margin-top: 500px;
+    margin-left: 110px;
+            }
+            .small2  img {
+                width: 200px;
+                cursor: pointer;
+                margin-top: 30px;
+                margin-left: 110px;
+                }
+                .small3  img {
+                    width: 200px;
+                    cursor: pointer;
+                    margin-top: 30px;
+                    margin-left: 110px;
+    
+                    }
+            
+      footer{
+          margin-top: 600px;
+      }
+    
+      .btn {
+        
+    
+        padding: 12px 12px;
+      font-size: 12px;
+    margin-left: 50px;
+    
+    }
+   }
+
+   @media (max-width:990px){
+    .cafe-portada {
+        display: none;
+    }
+   }
+
+   .luimi{
+    padding-top: 80px;
+   }
+
+
+
+
+
+
+
+
+

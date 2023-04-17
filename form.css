@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Shippori+Antique+B1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.87)), url(../CORPORATIVO/producto3.png) no-repeat center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+   
+  
+   
+   
+}
+
+.form-register {
+    width: 400px;
+background-color: #2f2f30;
+    padding: 30px;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 20px;
+    color: #2f2f30;
+    box-shadow: 7px 13px 37px;
+   
+}
+
+.form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+background-color: #2f2f30;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #d87e08;
+color: aliceblue;
+    font-size: 18px;
+    
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: aliceblue;
+    line-height: 40px;
+}
+
+.form-register .botons {
+    width: 100%;
+    background-color: #d87e08;
+    border: none;
+    padding: 12px;
+   color: #2f2f30;
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar{
+    background-color: #fa8d18 !important;
+}
+
+
